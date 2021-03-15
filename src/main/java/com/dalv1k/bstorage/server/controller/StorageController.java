@@ -37,7 +37,7 @@ public class StorageController {
         return storageService.getAllStorage();
     }
 
-    //    //rest update
+        //rest update
     @PutMapping("/{id}")
     public ResponseEntity<Storage> sellStorage(@PathVariable Integer id, @RequestBody Sale sale){
         Storage storage = storageService.sellStorage(id,sale);

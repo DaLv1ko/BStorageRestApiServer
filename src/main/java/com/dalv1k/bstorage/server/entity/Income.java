@@ -59,7 +59,7 @@ public class Income {
     @Column(name = "amount")
     private Integer amount;
 
-    @JsonFormat(pattern="dd-MM-yyyy")
+    @JsonFormat(pattern="dd.MM.yyyy")
     @Column(name = "date")
     private Date date;
 
