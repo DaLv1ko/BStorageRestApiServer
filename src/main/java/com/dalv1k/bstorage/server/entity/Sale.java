@@ -1,5 +1,7 @@
 package com.dalv1k.bstorage.server.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.persistence.*;
 import java.sql.Date;
 
@@ -51,6 +53,7 @@ public class Sale {
     @Column(name = "debt")
     private int debt;
 
+    @JsonFormat(pattern="dd.MM.yyyy")
     @Column(name = "date")
     private Date date;
 
