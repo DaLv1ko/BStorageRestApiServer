@@ -3,14 +3,14 @@ Spring boot rest api server.
 
 Used technologies:
 
-*Spring
+-Spring
 
-*Spring boot
+-Spring boot
 
-*Spring data
+-Spring data
 
-*Spring security
+-Spring security
 
-*PostgreSQL
+-PostgreSQL
 
-*JWT
+-JWT
